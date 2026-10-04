@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono&display=swap');
+
+body, .ant-layout, .ant-layout-content { background: var(--mdr-bg-root) !important; font-family: var(--mdr-font-body); color: var(--mdr-text-primary); }
+h1, h2, h3, .ant-page-header-heading-title, .title { font-family: var(--mdr-font-display); }
+code, pre, .ant-typography code, .ant-input-number-input[type=text].mono { font-family: var(--mdr-font-mono); color: var(--mdr-text-accent); }
+.ant-layout-sider, .ant-layout-header, .ant-menu, .ant-table, .ant-card, .ant-input, .ant-select-selector { background: var(--mdr-bg-surface) !important; border-color: var(--mdr-border-subtle) !important; }
+.ant-card { background: var(--mdr-bg-card) !important; backdrop-filter: blur(10px); }
+.ant-btn-primary { background: var(--mdr-gradient-btn) !important; border: none !important; }
+.ant-btn-primary:hover { filter: brightness(1.12); }
+.user-layout-login .ant-btn-primary, .user-layout-container h1 { background-image: var(--mdr-gradient-one); }
+.user-layout-container img, .ant-layout-sider .logo img { filter: drop-shadow(0 0 20px rgba(0, 173, 239, 0.45)); }
+
+/* upstream hardcodes a white onboarding panel */
+.onboarding { background: var(--mdr-bg-surface) !important; color: var(--mdr-text-primary); box-shadow: none !important; border: 1px solid var(--mdr-border-subtle); }
+.onboarding .title, .onboarding h2, .onboarding h3 { color: var(--mdr-text-primary); }
+.ant-layout-sider img[src*="mdrc-logo"] { box-sizing: border-box; object-fit: contain; padding: 6px 10px; }
